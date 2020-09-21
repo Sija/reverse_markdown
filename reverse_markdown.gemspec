@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{Convert html code into markdown.}
   s.description = %q{Map simple html back into markdown, e.g. if you want to import existing html data in your application.}
 
-  s.rubyforge_project = "reverse_markdown"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
